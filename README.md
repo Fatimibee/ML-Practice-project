@@ -2,3 +2,4 @@
 
 # Student performance check project is done by Linear regression
 # Iris flower done by Logistic regression . in which it predicts Versicolor or Virginica
+# Spam detection is done by naive bayes model .This project uses a dataset sourced from Kaggle.
