@@ -17,7 +17,7 @@ def user_input():
     self_employed = st.sidebar.selectbox("Self Employed", ["Yes", "No"])
     income_annum = st.sidebar.number_input("Income (Annum)", min_value=0, key="income_annum")
     loan_amount = st.sidebar.number_input("Loan Amount", min_value=0, key="loan_amount")
-    loan_term = st.sidebar.selectbox("Loan Term (in months)", [2, 4, 68, 10, 12, 14, 16, 18, 20])
+    loan_term = st.sidebar.selectbox("Loan Term (in months)", [2, 4, 6,8, 10, 12, 14, 16, 18, 20])
     cibil_score = st.sidebar.number_input("CIBIL Score", min_value=300, max_value=900, step=1, key="cibil")
     residential_assets_value = st.sidebar.number_input("Residential Assets Value", min_value=0, key="residential_assets")
     commercial_assets_value = st.sidebar.number_input("Commercial Assets Value", min_value=0, key="commercial_assets")
